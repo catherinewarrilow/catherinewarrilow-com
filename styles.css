@@ -53,7 +53,9 @@ a.card:hover{transform:translateY(-2px);box-shadow:3px 3px 0 var(--ink)}
 .hp{position:absolute;left:-9999px;width:1px;height:1px}
 .back{margin-top:14px;font-weight:600;text-decoration:none;align-self:flex-start;padding:10px 0}
 h2.label{font-size:14px}
-.socials{display:flex;gap:10px;margin-bottom:16px}
+.socials{display:flex;gap:10px;margin:18px 0 0;justify-content:center;flex-wrap:wrap}
+.intro{text-align:center}.intro .lede{margin-left:auto;margin-right:auto}
+.label{text-align:center}
 .soc{display:grid;place-items:center;width:44px;height:44px;border:1.5px solid var(--ink);border-radius:50%;transition:background .15s}
 .soc:hover{background:var(--yellow)}
 .soc svg{width:21px;height:21px;fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
