@@ -12,7 +12,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=9">
+<link rel="stylesheet" href="/styles.css?v=10">
 </head>
 <body>
 <main class="page"><header class="hero"><div class="logo-hero"><svg class="logo-mark" role="img" aria-label="CW logo with hanger, heart, price tag and book icons" viewBox="0 0 220 180" ><g><clipPath id="cwT"><rect x="0" y="0" width="130" height="60"/></clipPath><clipPath id="cwB"><rect x="0" y="60" width="130" height="60"/></clipPath><path d="M102.18 98.18 A54 54 0 1 1 102.18 21.82 L83.80 40.20 A28 28 0 1 0 83.80 79.80 Z" fill="currentColor" clip-path="url(#cwT)"/><g clip-path="url(#cwB)"><path d="M100.77 96.77 A52 52 0 1 1 100.77 23.23" fill="none" stroke="currentColor" stroke-width="4"/><path d="M95.82 91.82 A45 45 0 1 1 95.82 28.18" fill="none" stroke="currentColor" stroke-width="4"/><path d="M90.87 86.87 A38 38 0 1 1 90.87 33.13" fill="none" stroke="currentColor" stroke-width="4"/><path d="M85.92 81.92 A31 31 0 1 1 85.92 38.08" fill="none" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(98 0)"><path d="M8 8 V83.0 A31.0 31.0 0 0 0 70 83.0 V8 H48 V83.0 A9.0 9.0 0 0 1 30 83.0 V8 Z" fill="currentColor"/><path d="M50 8 V83 A29 29 0 0 0 108 83 V8" fill="none" stroke="currentColor" stroke-width="4"/><path d="M57 8 V83 A22 22 0 0 0 101 83 V8" fill="none" stroke="currentColor" stroke-width="4"/><path d="M64 8 V83 A15 15 0 0 0 94 83 V8" fill="none" stroke="currentColor" stroke-width="4"/></g><g transform="translate(18 140)"><g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M11 7 a4 4 0 1 1 4 4 V17"/><path d="M15 17 L2 26 H28 Z"/></g></g><g transform="translate(72 140)"><g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 27 C4 19 1 13 4 8 C7 3 13 4 15 9 C17 4 23 3 26 8 C29 13 26 19 15 27 Z"/></g></g><g transform="translate(126 140)"><g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M1 16 L8 8 H29 V24 H8 Z"/></g><circle cx="9" cy="16" r="2.2" fill="currentColor"/></g><g transform="translate(180 140)"><g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 9 C11 6 6 6 2 7 V25 C6 24 11 24 15 27 C19 24 24 24 28 25 V7 C24 6 19 6 15 9 Z M15 9 V27"/></g></g></svg></div>
@@ -61,6 +61,42 @@
 <a class="btn" href="mailto:camwarrilow@gmail.com?subject=Hello%20Catherine">Say hi</a>
 </div>
 </section>
+<section class="ask" aria-labelledby="ask-t">
+<div class="bubble" id="bubble">
+<button class="bubble-btn" id="ask-open" type="button" aria-expanded="false" aria-controls="ask-form"><span id="ask-t">Ask me anything</span></button>
+<form id="ask-form" class="ask-form" action="https://script.google.com/macros/s/AKfycbwYysWP2WKDkJMjYH7svFsLx8tChsamZA3DAHOgfpd01hm5_RW0g6r_zeiJKTFtLBGU/exec" method="post" hidden>
+<input type="hidden" name="type" value="question">
+<label for="aq">Your question</label><textarea id="aq" name="question" rows="4" required maxlength="1000"></textarea>
+<label for="ae">Your email, if you&rsquo;d like a reply</label><input id="ae" name="email" type="email" autocomplete="email" maxlength="200">
+<input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button class="btn" type="submit">Send it</button>
+<p class="small" id="ask-msg" role="status" aria-live="polite"></p>
+</form>
+</div>
+<svg class="bagbuddy" viewBox="0 0 240 216" role="img" aria-label="A little carpet bag with my four icons spinning round his head">
+<defs><clipPath id="bb-bag"><path d="M70 110 H170 L183 190 Q185 204 171 204 H69 Q55 204 57 190 Z"/></clipPath><clipPath id="bb-front"><rect x="0" y="92" width="240" height="130"/></clipPath></defs>
+<ellipse cx="120" cy="92" rx="95" ry="24" fill="none" stroke="#0F2E22" stroke-width="1.2" stroke-dasharray="3 6" opacity=".45"/>
+<g id="bb-orb"><g><animateMotion dur="12s" repeatCount="indefinite" begin="-0s" path="M25,92 a95,24 0 1,0 190,0 a95,24 0 1,0 -190,0"/><circle r="15" fill="#F1FADF" stroke="#0F2E22" stroke-width="2.5"/><g transform="translate(-8.5,-9) scale(.57)"><g fill="none" stroke="#0F2E22" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M11 7 a4 4 0 1 1 4 4 V17"/><path d="M15 17 L2 26 H28 Z"/></g></g></g><g><animateMotion dur="12s" repeatCount="indefinite" begin="-3s" path="M25,92 a95,24 0 1,0 190,0 a95,24 0 1,0 -190,0"/><circle r="15" fill="#F7A8C4" stroke="#0F2E22" stroke-width="2.5"/><g transform="translate(-8.5,-9) scale(.57)"><g fill="none" stroke="#0F2E22" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 27 C4 19 1 13 4 8 C7 3 13 4 15 9 C17 4 23 3 26 8 C29 13 26 19 15 27 Z"/></g></g></g><g><animateMotion dur="12s" repeatCount="indefinite" begin="-6s" path="M25,92 a95,24 0 1,0 190,0 a95,24 0 1,0 -190,0"/><circle r="15" fill="#FFD43B" stroke="#0F2E22" stroke-width="2.5"/><g transform="translate(-8.5,-9) scale(.57)"><g fill="none" stroke="#0F2E22" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M1 16 L8 8 H29 V24 H8 Z"/></g><circle cx="9" cy="16" r="2.2" fill="#0F2E22"/></g></g><g><animateMotion dur="12s" repeatCount="indefinite" begin="-9s" path="M25,92 a95,24 0 1,0 190,0 a95,24 0 1,0 -190,0"/><circle r="15" fill="#F1FADF" stroke="#0F2E22" stroke-width="2.5"/><g transform="translate(-8.5,-9) scale(.57)"><g fill="none" stroke="#0F2E22" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 9 C11 6 6 6 2 7 V25 C6 24 11 24 15 27 C19 24 24 24 28 25 V7 C24 6 19 6 15 9 Z M15 9 V27"/></g></g></g></g>
+<path d="M92 104 C92 60 148 60 148 104" fill="none" stroke="#0F2E22" stroke-width="5" stroke-linecap="round"/>
+<g clip-path="url(#bb-bag)"><rect x="50" y="100" width="70" height="110" fill="#0F2E22"/><rect x="120" y="100" width="70" height="110" fill="#F1FADF"/><g stroke="#0F2E22" stroke-width="2.5"><line x1="120" y1="116" x2="190" y2="116"/><line x1="120" y1="125" x2="190" y2="125"/><line x1="120" y1="134" x2="190" y2="134"/><line x1="120" y1="143" x2="190" y2="143"/><line x1="120" y1="152" x2="190" y2="152"/><line x1="120" y1="161" x2="190" y2="161"/><line x1="120" y1="170" x2="190" y2="170"/><line x1="120" y1="179" x2="190" y2="179"/><line x1="120" y1="188" x2="190" y2="188"/><line x1="120" y1="197" x2="190" y2="197"/></g></g>
+<path d="M70 110 H170 L183 190 Q185 204 171 204 H69 Q55 204 57 190 Z" fill="none" stroke="#0F2E22" stroke-width="3.5" stroke-linejoin="round"/>
+<rect x="64" y="99" width="112" height="14" rx="7" fill="#F1FADF" stroke="#0F2E22" stroke-width="3.5"/>
+<circle cx="120" cy="106" r="5" fill="#FFD43B" stroke="#0F2E22" stroke-width="2.5"/>
+<circle cx="98" cy="146" r="5.5" fill="#F1FADF"/>
+<circle cx="142" cy="146" r="8" fill="#F1FADF"/><circle cx="142" cy="146" r="5.5" fill="#0F2E22"/>
+<path d="M107 166 Q120 178 133 166" fill="none" stroke="#FFD43B" stroke-width="3.5" stroke-linecap="round"/>
+<g clip-path="url(#bb-front)"><ellipse cx="120" cy="92" rx="95" ry="24" fill="none" stroke="#0F2E22" stroke-width="1.2" stroke-dasharray="3 6" opacity=".45"/><use href="#bb-orb"/></g>
+</svg>
+</section>
+<script>
+{const o=document.getElementById('ask-open'),f=document.getElementById('ask-form'),m=document.getElementById('ask-msg'),b=document.getElementById('bubble');
+o.addEventListener('click',()=>{if(!f.hidden)return;f.hidden=false;b.classList.add('open');o.setAttribute('aria-expanded','true');document.getElementById('aq').focus();});
+if(matchMedia('(prefers-reduced-motion: reduce)').matches){const s=document.querySelector('.bagbuddy');s&&s.pauseAnimations&&s.pauseAnimations();}
+f.addEventListener('submit',async ev=>{ev.preventDefault();const q=document.getElementById('aq');if(!q.value.trim()){m.textContent='Type your question first.';q.focus();return;}
+const s=f.querySelector('button[type=submit]');s.disabled=true;s.textContent='Sending\u2026';
+try{await fetch(f.action,{method:'POST',mode:'no-cors',body:new URLSearchParams(new FormData(f))});f.reset();m.textContent='Sent. I\u2019ll read it soon x';s.textContent='Sent';}
+catch(e){s.disabled=false;s.textContent='Send it';m.textContent='That didn\u2019t send. Please email camwarrilow@gmail.com instead.';}});}
+</script>
 <footer>&copy; 2026 Catherine Warrilow &middot; Abingdon, Oxfordshire</footer>
 </main>
 </body>
