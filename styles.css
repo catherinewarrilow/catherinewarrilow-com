@@ -54,6 +54,9 @@ a.card:hover{transform:translateY(-2px);box-shadow:3px 3px 0 var(--ink)}
 .ask [hidden]{display:none!important}
 .bubble.open .bubble-btn{cursor:default;padding:0 0 10px}
 .ask{display:flex;flex-direction:column;align-items:center;margin:44px 0 8px}
+.bb-eyes{transform-box:fill-box;transform-origin:center;animation:bb-blink 4.5s infinite}
+@keyframes bb-blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+@media (prefers-reduced-motion:reduce){.bb-eyes{animation:none}}
 .bagbuddy{width:200px;height:auto;margin-top:22px}
 .bubble{position:relative;background:var(--card);border:1.5px solid var(--ink);border-radius:22px;max-width:340px;width:auto;transition:width .2s}
 .bubble::after{content:"";position:absolute;left:50%;bottom:-11px;width:18px;height:18px;background:var(--card);border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);transform:translateX(-50%) rotate(45deg)}
